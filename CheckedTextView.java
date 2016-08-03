@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
+                //状态反转
                 textView.toggle();
                 if (textView.isChecked()) {
                     textView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.filte, 0, 0, 0);
